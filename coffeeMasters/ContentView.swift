@@ -21,7 +21,7 @@ struct ContentView: View {
                     Text("Offers")
                 }
 
-            OrdersPage()
+            OrdersPage(name: "Chomba chanda", phone: "0973301614")
                 .tabItem {
                     Image(systemName:  "cart")
                     Text("My Order")

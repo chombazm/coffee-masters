@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Offer: View {
+struct OfferItem: View {
     var title = ""
     var description = ""
     var body: some View {
@@ -28,5 +28,5 @@ struct Offer: View {
 }
 
 #Preview {
-    Offer(title: "My title", description: "This is my very description")
+    OfferItem(title: "My title", description: "This is my very description")
 };
